@@ -21,7 +21,7 @@ namespace TabTest
             SetContentView(Resource.Layout.Main);
 
             var viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
-            viewPager.Adapter = new FinsFragmentPagerAdapter(SupportFragmentManager, this);
+            viewPager.Adapter = new SampleFragmentPagerAdapter(SupportFragmentManager, this);
 
             // Give the TabLayout the ViewPager
             var tabLayout = FindViewById<TabLayout>(Resource.Id.sliding_tabs);

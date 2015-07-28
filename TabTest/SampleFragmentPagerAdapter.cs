@@ -5,12 +5,12 @@ using Java.Lang;
 
 namespace TabTest
 {
-    public class FinsFragmentPagerAdapter : FragmentPagerAdapter
+    public class SampleFragmentPagerAdapter : FragmentPagerAdapter
     {
         private readonly Context _context;
         private List<string> _tabTitles;
 
-        public FinsFragmentPagerAdapter(FragmentManager fm, Context context) : base(fm) {
+        public SampleFragmentPagerAdapter(FragmentManager fm, Context context) : base(fm) {
             _context = context;
             _tabTitles = new List<string>() { "Tab1", "Tab2", "Tab3" };
         }
